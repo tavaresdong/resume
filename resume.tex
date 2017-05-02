@@ -1,0 +1,66 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+ 
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Yuchen Dong}
+
+% {E-mail}{mobilephone}{homepage}
+\contactInfo{dongyc\_nju@163.com}{(+86) 151-9590-7609}{http://github.com/tavaresdong}
+% {E-mail}{mobilephone}
+%\basicContactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}
+ 
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Nanjing University}, Nanjing, China}{2013 -- 2016}
+\textit{Master student} in Computer Science and Technology.
+\datedsubsection{\textbf{Nanjing University}, Nanjing, China}{2008 -- 2013}
+\textit{B.S.} in Computer Science and Technology.
+\textit one year sick leave.
+
+\section{\faUsers\ Experience}
+\datedsubsection{\textbf{Morgan Stanley} Shanghai, China}{2016 -- Present}
+\role{C++ Developer}{Team: E-Trading infrastructure}
+Developing core trading infrastracture
+\begin{itemize}
+  \item Content pub/sub system integration with JSON/GPB.
+  \item Fix message library development, performance tuning and message diagnostic tool development.
+  \item Event-driven trading infrastructure development.
+  \item High availability solution development based on multicast and TCP.
+\end{itemize}
+
+\datedsubsection{\textbf{Alibaba Inc.}}{June. 2015 -- Sept. 2015}
+\role{C++ Developer}{Team: Searching BU}
+Developing product score ranking service. Implement ranking service for query engine.
+
+\datedsubsection{\textbf{Accumulator: A Program Analyzer}}{June. 2015 -- Sept. 2015}
+\role{Developer}{Master research project}
+Developing Java program analyzer based on eclipse jdt and
+antlr, applying verification techniques like theorem proving and data-flow analysis.
+
+\datedsubsection{\textbf{oplib}}{June. 2015 -- present}
+\role{Developer}{Individual project}
+Individual project: a libraries developed for fun at
+github.com/tavaresdong/oplib.git
+\begin{itemize}
+  \item a Tiny STL container library including vector/list/set/map/unordered\_map/unorderd\_set and heap, trie. supporting C++11/14 features.
+  \item A reactor-pattern network library mimicing muduo, applying one-loop per thread and multithreaded server model.
+\end{itemize}
+
+\section{\faCogs\ Skills and Interests}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C++ > C > Python = shell = Java = Go
+  \item Platform: Linux System Programming
+  \item Interests: Linux Network Programming, Multithreaded Programming, Redis, SQL, Go, Distributed sytem
+\end{itemize}
+
+\section{\faHeartO\ Major Honors and Awards}
+\datedline{National Scholarship }{Sept. 2010}
+\datedline{Nanjing University People's scholarship level 1}{Sept. 2011}
+\datedline{Huawei Scholarship}{Sept. 2012}
+\datedline{Morgan Stanley new trainee guru award}{Nov. 2016}
+
+\end{document}
