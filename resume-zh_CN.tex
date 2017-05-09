@@ -6,73 +6,73 @@
 \usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage{linespacing_fix} % disable extra space before next section
- 
+
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{冬雨辰}
 
 % {E-mail}{mobilephone}{homepage}
-\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{http://www.yuanbin.me}
+\contactInfo{dongyc_nju@163.com}{(+86) 151-959-07609}{http://github.com/tavaresdong}
 % {E-mail}{mobilephone}
 %\basicContactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}
- 
+
 \section{\faGraduationCap\ as}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\datedsubsection{\textbf{南京大学}, 南京}{2013 -- 2016}
+\textit{硕士}\ 计算机科学与技术
+\datedsubsection{\textbf{南京大学}, 南京}{2008 -- 2013}
+\textit{学士}\ 计算机科学与技术，因病休学一年
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
+\section{\faUsers\ 工作/项目经历}
+\datedsubsection{\textbf{摩根士丹利} 上海}{2016年8月至今}
+\role{C++工程师}{team: 交易基础架构组}
+参与交易基础组件库的开发与维护
 \begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
+  \item 内容发布、订阅服务开发，增加json/gpb格式支持，增加认证与授权功能
+  \item FIX 消息库功能开发，消息格式分析工具开发，性能优化
+  \item 基于事件的交易框架开发，编写日常需求
+  \item 内部基于TCP和Multicast的高可用解决方案开发与维护
 \end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
-\begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
-\begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
-\end{itemize}
-\end{onehalfspacing}
+\datedsubsection{\textbf{阿里巴巴集团}}{2015年6月 -- 2015年8月}
+\role{搜索研发工程师}{team: 搜索事业部}
+参与国际广告业务的后台服务开发，包括搜索前后台对接，算法库
+的集成等。
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+\datedsubsection{\textbf{Accumulator程序分析工具开发}}{June. 2013 -- Sept. 2015}
+\role{Developer}{研究生课题项目}
+基于Antlr/JDT开发Java语言的程序分析工具，应用数据流分析、定理证明等技术手段
+确保程序的可靠性。
+
+\datedsubsection{\textbf{oplib个人项目}}{June. 2015 -- present}
+个人业余学习时开发的C++库，仍在不断完善中，地址:
+github.com/tavaresdong/oplib.git
+主要包括:
 \begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.3.0
+  \item 一个简单的类STL容器库，包括 vector/list/set/map/unordered\_map/unorderd\_set and heap, trie等数据结构. 支持 C++11/14 新特性.
+  \item 模仿muduo实现的一个reactor模式的网络库，使用了C++11新特性.
 \end{itemize}
-\end{onehalfspacing}
+
+\datedsubsection{\textbf{其他经验}}{June. 2009 -- present}
+其他学生时期写过的项目，主要包括:
+\begin{itemize}
+  \item 南京大学研究生院信息管理系统，使用Java SSH
+  \item 一个简单的数据库，支持事务和索引: https://github.com/tavaresdong/courses/tree/master/mit6.830/simpledb
+  \item 简易的操作系统、C语言编译器等
+\end{itemize}
 
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
+  \item 编程语言: C++ > Java > Python == GO == Shell，熟悉stl和boost以及其他常用C++库
+  \item 平台: Linux/gcc/gdb/git为主的服务器开发
+  \item 其他: 有mysql redis hadoop的经验，熟悉gtest/cppunit等单元测试工具的使用
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
-
-\section{\faInfo\ 其他}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
-\end{itemize}
+\datedline{国家奖学金}{2010}
+\datedline{南京大学人民奖学金一等}{2011}
+\datedline{华为奖学金}{2012}
+\datedline{摩根士丹利新员工guru奖}
 
 \end{document}
