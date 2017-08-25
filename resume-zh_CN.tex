@@ -29,17 +29,20 @@
 
 参与交易基础组件库的开发与维护
 \begin{itemize}
-  \item 内容发布、订阅服务开发，增加json/gpb格式支持，增加认证与授权功能
-  \item FIX 消息库功能开发，消息格式分析工具开发，性能优化
-  \item 基于事件的交易框架开发，编写日常需求
+  \item 内容发布、订阅服务中间件开发，增加json/gpb格式支持，增加认证与授权功能
+  \item FIX 消息库功能开发，消息格式分析工具开发，修复遗留bug
+  \item 开发公司通用的交易应用基础框架，研发新需求，修复bug
   \item 内部基于TCP和Multicast的高可用解决方案开发与维护
+  \item 开发代码质量自动化检查与修复工具，自动检查头文件冗余与顺序错误，集成进CI来保证代码质量
 \end{itemize}
 
 \datedsubsection{\textbf{阿里巴巴集团}}{2015年6月 -- 2015年8月}
 \role{搜索研发工程师}{team: 搜索事业部}
-
-参与国际广告业务的后台服务开发，包括搜索前后台对接，算法库
+\begin{itemize}
+  \item 参与国际广告业务的后台服务开发，包括搜索前后台对接，算法库
 的集成等。
+  \item 开发通用的搜索排序特征库接口
+\end{itemize}
 
 \datedsubsection{\textbf{Accumulator程序分析工具开发}}{2013年9月 -- 2016年6月}
 \role{Developer}{研究生课题项目}
@@ -48,12 +51,12 @@
 确保程序的可靠性。
 
 \subsection{\textbf{oplib个人项目}}
-个人业余学习时开发的使用C++11新特性的基础库，仍在不断完善中，地址:
+个人业余学习时开发的使用C++11新特性的基础库，地址:
 github.com/tavaresdong/oplib.git
 主要包括:
 \begin{itemize}
-  \item 一个简单的类STL容器库，包括 vector/list/set/map/unordered\_map/unorderd\_set and heap, trie等数据结构.
-  \item 模仿muduo实现的一个reactor模式的网络库
+  \item 一个简单的类STL容器库，包括 vector/list/set/map/unordered\_map/unorderd\_set and heap, trie等数据结构，实现了C++11/14新特性
+  \item 模仿muduo实现的一个reactor模式的网络库，基于多路复用技术，以one-loop per thread + multithread模型高效处理并发连接，封装底层socket细节
 \end{itemize}
 
 \subsection{\textbf{其他项目}}
@@ -67,9 +70,10 @@ github.com/tavaresdong/oplib.git
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C++ > Java > Python == GO == Shell，熟悉stl和boost以及其他常用C++库
-  \item 平台: Linux/gcc/gdb/git为主的服务器开发
-  \item 其他: 有mysql redis hadoop的经验，熟悉gtest/cppunit等单元测试工具的使用
+  \item 编程语言: 熟悉 C/C++ python和Java
+  \item 生态环境: 熟悉C++开发生态环境如 stl/boost/gcc/gdb/make，了解Java Spring框架
+  \item 平台: Linux服务器开发
+  \item 其他: 有mysql redis经验，熟悉shell/git等日常开发工具
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
